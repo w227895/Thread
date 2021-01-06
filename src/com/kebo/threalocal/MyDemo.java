@@ -26,8 +26,6 @@ public class MyDemo {
                 System.out.println(Thread.currentThread().getName() + "----->" + myDemo.getContent());
             }).start();
         }
-
-        Thread thread=new Thread();
     }
 }
 
